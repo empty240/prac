@@ -22,7 +22,6 @@
 <header>
 	<div class="row no-gutters">
 		<div class="col-9 col-sm-4">
-			<div class="corporate_icon"><img class="logo" src="{{ asset('img/icon.png') }}" alt="logo"></div>
 			<h1>
 					<a href="{{route('top')}}">日報登録システム</a>
 			</h1>
