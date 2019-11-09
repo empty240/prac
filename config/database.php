@@ -90,7 +90,12 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
         ],
-
+        // 以下を追加
+        'sqlite_testing' => [
+            'driver' => 'sqlite',
+            'database' => ':memory:',
+            'prefix' => '',
+        ],
     ],
 
     /*
