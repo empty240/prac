@@ -44,6 +44,7 @@ class StaffsController extends Controller
     public function edit($staff_id)
       {
           $staff = Staffs::with('profile')->findOrFail($staff_id);
+          
           $this->setFactories();
           return view('staffs.edit', [
               'staff' => $staff,
