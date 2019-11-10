@@ -23,7 +23,7 @@
 	<div class="row no-gutters">
 		<div class="col-9 col-sm-4">
 			<h1>
-					<a href="{{route('top')}}">日報登録システム</a>
+				<a href="{{route('top')}}">日報登録システム</a>
 			</h1>
 		</div>
 		<div class="col-1 col-sm-4 page_title">
